@@ -123,68 +123,67 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-End Developer",
-    company_name: "IRDA Solutions",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "IT Consultant",
+    company_name: "Rogers Communications",
+    icon: rogers, // Replace with actual icon
+    iconBg: "#5b93d3", // Example color, adjust as necessary
+    date: "June 2023 to Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Responsible for network management, network security, and network optimization.",
+      "Response for ticket lifecycle.",
+      "Maintain and manage network systems.",
+      "Manage customer interactions through inbound and outbound calls, and chat support, focusing on timely and effective resolution of technical issues.",
+      "Embrace the first-call resolution principle to maximize customer satisfaction.",
+      "Educate customers on existing products and upsell value-added services.",
+      "Resolve technical problems with a customer-centric approach, employing active listening, targeted questioning, and clear communication.",
+      "Continuously enhance expertise in company products, services, and solutions, applying new knowledge and certifications to improve service delivery.",
     ],
   },
   {
-    title: "IT Logistics Assistant ",
-    company_name: "St. Michael’s Hospital ",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining Microsoft Access database using python automation scripts and Excel. ",
-      "Collaborating with administrators on medical products to automate data into company database.      ",
-      "Implementing and adjusted database to perform better inventory forecasting using python and Excel.      ",
-      "Participating in meetings for inventory adjustment and feedback on medical equipment.      ",
-    ],
-  },
-  {
-    title: "IT Assistant   ",
-    company_name: "TDSB",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Help Desk Analyst    ",
+    title: "Help Desk Analyst",
     company_name: "CIBC",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    icon: cibc, // Replace with actual icon
+    iconBg: "#c4b5a4", // Example color, adjust as necessary
+    date: "June 2021 to June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managed and maintained users on Active Directory servers.",
+      "Utilized Excel for advanced data analysis, reporting, and automation to support decision-making processes and enhance operational efficiency.",
+      "Manage and maintain incident tickets using ServiceNow.",
+      "Troubleshoot Banking software and escalate to support teams.",
+      "Maintained users on IBM mainframe systems and performed system service support.",
+      "Utilized HTML tags to manage and update CIBC's knowledge base, ensuring documentation is current with new information and hyperlinks.",
+      "Maintain Unix systems and perform system services using commands.",
+      "Maintain and manage CISCO VPN connections, Virtual Machines, Citrix services, and firewall and security management systems for IT infrastructure.",
     ],
   },
   {
-    title: "Tech Consultant   ",
-    company_name: "Rogers",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "IT Assistant",
+    company_name: "Toronto District School Board (Contract Buchanan)",
+    icon: tdsb, // Replace with actual icon
+    iconBg: "#88c1d0", // Example color, adjust as necessary
+    date: "August 2020 to June 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Operated custom online software for database entry.",
+      "Mastered Excel analytics to optimize team performance, spearheading all Excel-related tasks including data analysis, reporting, and automation.",
+      "Responsible for sending emails to communicate updates to clients and operated office equipment.",
+      "Administrator and Organizer of crew members and data to manage shipment.",
+      "Troubleshooting laptops for system integrity and restore laptops to working conditions.",
+      "Extensive bookkeeping and maintaining the warehouse using heavy machinery.",
+      "Maintain and secure network integrity.",
+    ],
+  },
+  {
+    title: "Logistics Assistant",
+    company_name: "St. Michael’s Hospital",
+    icon: stmichaels, // Replace with actual icon
+    iconBg: "#a1d2ce", // Example color, adjust as necessary
+    date: "February 2020 to August 2020",
+    points: [
+      "Excel data entry and automating data conversion from Excel.",
+      "Troubleshoot text recognizing software and leveraged Excel in conjunction with AccessPoint to maintain and update the database.",
+      "Operated office equipment including photocopier, fax machine, printer, scanner and created databases on MS.",
+      "Provide quality assurance to medical products and equipment and automate data into company format.",
+      "Provide attention to detail regarding necessary medical equipment according to team communication with staff.",
     ],
   },
 ];
