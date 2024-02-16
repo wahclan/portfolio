@@ -49,7 +49,7 @@ const ComputersCanvas = () => {
       camera={{ fov: 15, near: 1, far: 300, position: [-20, -3, -8] }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls autoRotate  autoRotateSpeed={2.5}  enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
+        <OrbitControls autoRotate  autoRotateSpeed={3}  enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
         <Computers isMobile={isMobile} />
       </Suspense>
       <Preload all />
