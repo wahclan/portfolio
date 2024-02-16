@@ -125,7 +125,7 @@ const experiences = [
   {
     title: "IT Consultant",
     company_name: "Rogers Communications",
-    icon: rogers, // Replace with actual icon
+    icon: creator, // Replace with actual icon
     iconBg: "#5b93d3", // Example color, adjust as necessary
     date: "June 2023 to Present",
     points: [
@@ -142,7 +142,7 @@ const experiences = [
   {
     title: "Help Desk Analyst",
     company_name: "CIBC",
-    icon: cibc, // Replace with actual icon
+    icon: web, // Replace with actual icon
     iconBg: "#c4b5a4", // Example color, adjust as necessary
     date: "June 2021 to June 2023",
     points: [
@@ -159,7 +159,7 @@ const experiences = [
   {
     title: "IT Assistant",
     company_name: "Toronto District School Board (Contract Buchanan)",
-    icon: tdsb, // Replace with actual icon
+    icon: backend, // Replace with actual icon
     iconBg: "#88c1d0", // Example color, adjust as necessary
     date: "August 2020 to June 2021",
     points: [
@@ -175,7 +175,7 @@ const experiences = [
   {
     title: "Logistics Assistant",
     company_name: "St. Michael’s Hospital",
-    icon: stmichaels, // Replace with actual icon
+    icon: mobile, // Replace with actual icon
     iconBg: "#a1d2ce", // Example color, adjust as necessary
     date: "February 2020 to August 2020",
     points: [
