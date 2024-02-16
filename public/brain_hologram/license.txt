@@ -1,0 +1,11 @@
+Model Information:
+* title:	GNU Handsystem
+* source:	https://sketchfab.com/3d-models/gnu-handsystem-3960217948dd420fbad910c6211f6db7
+* author:	Hobo F Slapfight (https://sketchfab.com/hfslapfight)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "GNU Handsystem" (https://sketchfab.com/3d-models/gnu-handsystem-3960217948dd420fbad910c6211f6db7) by Hobo F Slapfight (https://sketchfab.com/hfslapfight) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
