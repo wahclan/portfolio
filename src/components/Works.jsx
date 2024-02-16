@@ -89,6 +89,7 @@ Following projects showcases my skills and experience through real-world example
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+      
     </>
   );
 };
