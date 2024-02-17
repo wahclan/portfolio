@@ -21,15 +21,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import stmichales from "./company/stmichales.png";
+import tdsb from "./company/tdsb.png";
+import rogers from "./company/rogers.png";
+import cibc from "./company/cibc.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import spaceship from "./spaceship.gif"
+import spaceship from "./spaceship.gif";
+import market from "./marketplace.png";
+import blog from "./blog.png";
+import openai from "./openai.png";
 
 export {
   logo,
@@ -37,13 +40,16 @@ export {
   creator,
   mobile,
   web,
+  market,
   github,
   menu,
   close,
   css,
   docker,
+  openai,
   figma,
   git,
+  blog,
   html,
   javascript,
   mongodb,
@@ -53,10 +59,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  stmichales,
+  tdsb,
+  rogers,
+  cibc,
   carrent,
   jobit,
   tripguide,

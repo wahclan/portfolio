@@ -15,10 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  market,
+  blog,
+  stmichales,
+  tdsb,
+  rogers,
+  cibc,
+  openai,
   carrent,
   jobit,
   tripguide,
@@ -125,7 +128,7 @@ const experiences = [
   {
     title: "IT Consultant",
     company_name: "Rogers Communications",
-    icon: creator, // Replace with actual icon
+    icon: rogers, // Replace with actual icon
     iconBg: "#5b93d3", // Example color, adjust as necessary
     date: "June 2023 to Present",
     points: [
@@ -142,7 +145,7 @@ const experiences = [
   {
     title: "Help Desk Analyst",
     company_name: "CIBC",
-    icon: web, // Replace with actual icon
+    icon: cibc, // Replace with actual icon
     iconBg: "#c4b5a4", // Example color, adjust as necessary
     date: "June 2021 to June 2023",
     points: [
@@ -159,7 +162,7 @@ const experiences = [
   {
     title: "IT Assistant",
     company_name: "Toronto District School Board (Contract Buchanan)",
-    icon: backend, // Replace with actual icon
+    icon: tdsb, // Replace with actual icon
     iconBg: "#88c1d0", // Example color, adjust as necessary
     date: "August 2020 to June 2021",
     points: [
@@ -175,7 +178,7 @@ const experiences = [
   {
     title: "Logistics Assistant",
     company_name: "St. Michael’s Hospital",
-    icon: mobile, // Replace with actual icon
+    icon: stmichales, // Replace with actual icon
     iconBg: "#a1d2ce", // Example color, adjust as necessary
     date: "February 2020 to August 2020",
     points: [
@@ -191,93 +194,161 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Samir proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Samir does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "He made sure to update websites keeping the UI beautiful.",
+    name: "John Doe",
+    designation: "Team Leader",
+    company: "CIBC",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
+      "He solved our biggest Database problem and set us up to handle more on our MS access Database.",
+    name: "John Doe",
+    designation: "Sr Manager",
+    company: "St. Michael’s Hospital",
+    image: "https://randomuser.me/api/portraits/men/87.jpg",
+  },
+  {
+    testimonial:
       "After Samir optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "John Doe",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "IRDA Solution",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
+
   {
-    name: "Car Rent",
+    name: "Custom OpenAI Stock Trading model",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Custom trained models on the OpenAI platform using data normalized using python. creating action in the model to ensure good trading advice. The model is trained on GPT4 and can analyze when to trade and when not to visualizing the data. Trained on all index stock history and patterns of the best traders. The dataset also includes US congress Trades to make the best predictions to BUY or SELL or Wait for better time.",
     tags: [
       {
-        name: "react",
+        name: "OpenAI",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Data analysis",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: openai,
+    source_code_link: "https://chat.openai.com/g/g-AT2htsyB4-stock-helper",
   },
   {
-    name: "Job IT",
+    name: "Blog",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Blog website based on reddit. Full stack application with cloud database and optimizing posts and for you page using Redis.",
     tags: [
       {
-        name: "react",
+        name: "redis",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Prisma",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: blog,
+    source_code_link: "https://social-wahclan.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Market Place",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "stripe",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: market,
+    source_code_link: "https://wahmarketstore.vercel.app/",
+  },
+  {
+    name: "NFT Trade   ",
+    description:
+      "A NFT Trading website that generates a GIF when sending ETH.",
+    tags: [
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Blockchain",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Eth",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://competent-kirch-afd8b9.netlify.app/",
+  },
+  {
+    name: "NFT Market",
+    description:
+      "NFT market to trade and sell NFTs using polygon. Contracts made in solidity. Minted NFTs https://opensea.io/collection/wahlite-marketplace",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "polygon",
+        color: "green-text-gradient",
+      },
+      {
+        name: "solidity",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://wahlite.vercel.app/create-nft",
+  },
+  {
+    name: "Custom Chatbot",
+    description:
+      "Python pre-trained transformers GPT 2 model. In this project I trained my python model to provide conversational skills like any character based on dialog from that character. The data and the outputs from the modem provided DAN like replys. This model was trained for 100+ hrs using Googles premium computational units",
+    tags: [
+      {
+        name: "Pytorch",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Jupyter notebook",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Microsoft-DialogGPT",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://huggingface.co/WAHCLAN",
   },
 ];
 
