@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop AI models <br className='sm:block hidden' />
-            interfaces and web applications
+             and web applications
           </p>
           <img src={spaceship} class="w-5/7 h-1/2 object-left-bottom" ></img>
 
