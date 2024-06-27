@@ -219,7 +219,28 @@ const testimonials = [
 ];
 
 const projects = [
-
+  
+{
+    name: "OpenAI ChatBot",
+    description:
+      "Utilized OpenAi GPT4 Model to create a Dynamic chat bot ",
+    tags: [
+      {
+        name: "OpenAI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Nextjs",
+        color: "Blue-text-gradient",
+      },
+      {
+        name: "Data analysis",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: openai,
+    source_code_link: "https://wahainote.vercel.app/",
+  },
   {
     name: "Custom OpenAI Stock Trading model",
     description:
