@@ -33,7 +33,7 @@ import spaceship from "./spaceship.gif";
 import market from "./marketplace.png";
 import blog from "./blog.png";
 import openai from "./openai.png";
-import wahnotes from "./Wahnotes.PNG";
+import wahnotes from "./Wahnotes.png";
 
 export {
   logo,
