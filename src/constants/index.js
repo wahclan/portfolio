@@ -27,6 +27,7 @@ import {
   tripguide,
   threejs,
   spaceship,
+  wahnotes,
 } from "../assets";
 
 export const navLinks = [
@@ -223,7 +224,7 @@ const projects = [
 {
     name: "OpenAI ChatBot",
     description:
-      "Utilized OpenAi GPT4 Model to create a Dynamic chat bot ",
+      "Utilized OpenAi GPT4 Model to create a Dynamic chat bot with custom inputs and MFA using clerk",
     tags: [
       {
         name: "OpenAI",
@@ -238,7 +239,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: openai,
+    image: wahnotes,
     source_code_link: "https://wahainote.vercel.app/",
   },
   {
