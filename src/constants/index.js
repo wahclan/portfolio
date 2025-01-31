@@ -126,6 +126,21 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+    title: "Digital Optimizer",
+    company_name: "Rogers Communications",
+    icon: rogers, // Replace with actual icon
+    iconBg: "#5b93d3", // Example color, adjust as necessary
+    date: "June 2023 to Present",
+    points: [
+      "Assist Product Owners in writing and implementing stories to enhance digital journeys,reduce contact center volumes, and lower Average Handle Time (AHT).",
+      "Response for ticket lifecycle.",
+      "Utilize OpenAI models and vendor AI systems to optimize responses, train conversation flows, and improve user engagement.",
+      "Create Excel reports, analyze data, and generate actionable insights.",
+      "Contribute to digital adoption campaigns, shifting volume from Contact Centers to digital platforms.",
+      "Present recommendations to Digital, Care, and Tech Ops teams, driving improvements in contact deflection and user experience.",
+    ],
+  },
   {
     title: "IT Consultant",
     company_name: "Rogers Communications",
@@ -137,9 +152,6 @@ const experiences = [
       "Response for ticket lifecycle.",
       "Maintain and manage network systems.",
       "Manage customer interactions through inbound and outbound calls, and chat support, focusing on timely and effective resolution of technical issues.",
-      "Embrace the first-call resolution principle to maximize customer satisfaction.",
-      "Educate customers on existing products and upsell value-added services.",
-      "Resolve technical problems with a customer-centric approach, employing active listening, targeted questioning, and clear communication.",
       "Continuously enhance expertise in company products, services, and solutions, applying new knowledge and certifications to improve service delivery.",
     ],
   },
